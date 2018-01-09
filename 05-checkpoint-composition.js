@@ -3,6 +3,9 @@ import PropTypes from 'prop-types'
 import 'font-awesome/css/font-awesome.min.css'
 import './05-checkpoint-composition.css'
 
+// how to install font-awesome:
+// project folder => type: npm install --save font-awesome
+
 function Person(props) {
   // compose the <Avatar /> and <Icon /> components together to create this <Person /> component
   // - <div className="Person"> is your root element
