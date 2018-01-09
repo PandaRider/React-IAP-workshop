@@ -42,12 +42,6 @@ function MyApp() {
         of your choice in the render function (above the return line) in MyApp,
         and pass the variable name as `myFunc` into `MyComponent` below.
       */}
-      <MyComponent
-        helloText="Hello!"
-        me={{ firstName: "Rick", lastName: "Sanchez" }}
-        textColor="red"
-        myFunc={myTestFunction}
-      />
     </div>
   );
 }
